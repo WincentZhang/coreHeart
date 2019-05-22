@@ -481,7 +481,8 @@ public class MyInformationActivity extends Activity implements View.OnClickListe
     }
 
     /**
-     * 向服务器上传用户的信息数据
+     * 向服务器上传用户的信息的数据
+     *
      */
     private void saveToSeverTest() {
         RequestQueue queue = Volley.newRequestQueue(mContext);
